@@ -1,0 +1,172 @@
+.grid-container {
+	display: grid;
+	height: 100vh;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+	grid-gap: 1px 1px;
+	grid-template-areas: "searchArtist searchArtist myArtist myArtist"
+		"searchArtistBar searchArtistBar myArtistTable myArtistTable" "phoneNumber phoneNumber phoneNumber phoneNumber"
+		"phoneNumberBox phoneNumberBox phoneNumberBox phoneNumberBox" "saveButton saveButton saveButton saveButton";
+}
+
+.searchArtist {
+	grid-area: searchArtist;
+}
+
+.searchArtist {
+	text-decoration: none;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.searchArtist {
+	color: #fff;
+	font-family: Arial, Helvetica, sans-serif;
+	-webkit-animation: neon1 1.5s ease-in-out infinite alternate;
+	-moz-animation: neon1 1.5s ease-in-out infinite alternate;
+	animation: neon1 1.5s ease-in-out infinite alternate;
+}
+
+.searchArtist:hover {
+	color: #ff1177;
+	-webkit-animation: none;
+	-moz-animation: none;
+	animation: none;
+}
+
+@-webkit-keyframes neon1 {
+	from {
+		text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff1177, 0 0 70px #ff1177, 0 0 80px #ff1177,
+			0 0 100px #ff1177, 0 0 150px #ff1177;
+	}
+	to {
+		text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff1177, 0 0 35px #ff1177, 0 0 40px #ff1177,
+			0 0 50px #ff1177, 0 0 75px #ff1177;
+	}
+}
+
+/*glow for mozilla*/
+
+@-moz-keyframes neon1 {
+	from {
+		text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff1177, 0 0 70px #ff1177, 0 0 80px #ff1177,
+			0 0 100px #ff1177, 0 0 150px #ff1177;
+	}
+	to {
+		text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff1177, 0 0 35px #ff1177, 0 0 40px #ff1177,
+			0 0 50px #ff1177, 0 0 75px #ff1177;
+	}
+}
+
+@keyframes neon1 {
+	from {
+		text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff1177, 0 0 70px #ff1177, 0 0 80px #ff1177,
+			0 0 100px #ff1177, 0 0 150px #ff1177;
+	}
+	to {
+		text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff1177, 0 0 35px #ff1177, 0 0 40px #ff1177,
+			0 0 50px #ff1177, 0 0 75px #ff1177;
+	}
+}
+
+.myArtist {
+	grid-area: myArtist;
+}
+
+.myArtist {
+	text-decoration: none;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.myArtist {
+	color: #fff;
+	font-family: Arial, Helvetica, sans-serif;
+	-webkit-animation: neon1 1.5s ease-in-out infinite alternate;
+	-moz-animation: neon1 1.5s ease-in-out infinite alternate;
+	animation: neon1 1.5s ease-in-out infinite alternate;
+}
+
+.myArtist:hover {
+	color: #ff1177;
+	-webkit-animation: none;
+	-moz-animation: none;
+	animation: none;
+}
+
+@-webkit-keyframes neon1 {
+	from {
+		text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff1177, 0 0 70px #ff1177, 0 0 80px #ff1177,
+			0 0 100px #ff1177, 0 0 150px #ff1177;
+	}
+	to {
+		text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff1177, 0 0 35px #ff1177, 0 0 40px #ff1177,
+			0 0 50px #ff1177, 0 0 75px #ff1177;
+	}
+}
+
+/*glow for mozilla*/
+
+@-moz-keyframes neon1 {
+	from {
+		text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff1177, 0 0 70px #ff1177, 0 0 80px #ff1177,
+			0 0 100px #ff1177, 0 0 150px #ff1177;
+	}
+	to {
+		text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff1177, 0 0 35px #ff1177, 0 0 40px #ff1177,
+			0 0 50px #ff1177, 0 0 75px #ff1177;
+	}
+}
+
+@keyframes neon1 {
+	from {
+		text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff1177, 0 0 70px #ff1177, 0 0 80px #ff1177,
+			0 0 100px #ff1177, 0 0 150px #ff1177;
+	}
+	to {
+		text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff1177, 0 0 35px #ff1177, 0 0 40px #ff1177,
+			0 0 50px #ff1177, 0 0 75px #ff1177;
+	}
+}
+
+.searchArtistBar {
+	grid-area: searchArtistBar;
+}
+
+.myArtistTable {
+	grid-area: myArtistTable;
+}
+
+.phoneNumber {
+	grid-area: phoneNumber;
+}
+
+.phoneNumberBox {
+	grid-area: phoneNumberBox;
+}
+
+.saveButton {
+	grid-area: saveButton;
+}
+
+.saveButton {
+	float: right;
+	color: white;
+	background: green;
+	padding: 10px;
+	top: 500px;
+	border-radius: 6px;
+	cursor: pointer;
+	user-select: none;
+	margin: 0px 892px;
+}
+
+.saveButton:hover {
+	background: yellowgreen;
+}
+
+.saveButton:active {
+	opacity: 0.4;
+}

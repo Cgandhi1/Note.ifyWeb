@@ -39,7 +39,7 @@ class NavBar extends Component {
 	handleClick(i) {
 		const links = this.state.links.slice();
 		for (let j = 0; j < links.length; j++) {
-			links[j].isActive = i == j;
+			links[j].isActive = i === j;
 		}
 		this.setState({ links: links });
 	}
